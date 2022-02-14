@@ -1,6 +1,6 @@
 from github import Github
 
-repo_action = Github("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")
+g = Github("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")
 
 def lambda_handler(event, context):
     """Lambda function wrapper
