@@ -61,7 +61,6 @@ jobs:
         run: |
             aws lambda update-function-code \
               --function-name my-function \
-              --region ap-southeast-1 \
-              --zip-file fileb://lambda.zip
+              --zip-file fileb://my-function.zip
 
     
