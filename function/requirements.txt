@@ -1,3 +1,2 @@
-PyGithub==1.55
 pygithub
 boto3==1.17.96
